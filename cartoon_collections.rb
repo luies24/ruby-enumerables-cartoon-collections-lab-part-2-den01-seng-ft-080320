@@ -20,7 +20,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   valid_string = nil
   
-  planeteer_calls.any? do |element|
+  planeteer_calls.first do |element|
     element == valid_calls.each 
   end
 end
