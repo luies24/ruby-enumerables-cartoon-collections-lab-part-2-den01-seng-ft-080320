@@ -18,9 +18,12 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  valid_string = nil
   
   planeteer_calls.any? do |element|
-    element == valid_calls.each
-    return element
+    if element == valid_calls.each do
+      return element
+    end
+    
   end
 end
