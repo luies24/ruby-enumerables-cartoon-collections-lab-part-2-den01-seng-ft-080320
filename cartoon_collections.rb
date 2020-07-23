@@ -21,5 +21,6 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.any? do |element|
     element == valid_calls.each
+    return element
   end
 end
