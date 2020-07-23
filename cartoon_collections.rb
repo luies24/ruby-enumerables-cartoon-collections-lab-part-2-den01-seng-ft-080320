@@ -21,9 +21,8 @@ def find_valid_calls(planeteer_calls)
   valid_string = nil
   
   planeteer_calls.any? do |element|
-    if element == valid_calls.each do
+    if element == valid_calls.each 
       return element
     end
-    
   end
 end
