@@ -24,7 +24,7 @@ def find_valid_calls(planeteer_calls)
     while i < valid_calls.count do
       if element == valid_calls[i]
         return element
-      end
+      
       i++
     end
   end
