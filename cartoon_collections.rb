@@ -21,12 +21,6 @@ def find_valid_calls(planeteer_calls)
   i = 0
   
   planeteer_calls.any? do |element|
-    while i < valid_calls.count do
-      if element == valid_calls[i]
-        return element
-      end
-      i++
-    end
+    
   end
-  return nil
 end
